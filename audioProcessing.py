@@ -3,7 +3,7 @@ from pydub import AudioSegment
 from pydub.effects import normalize, speedup, strip_silence
 from utility import removeIndividualSamples
 from setup import out_path
-from setup import NORMALIZE, SILENCE, PADDING, REM_INDIVIDUAL_SAMPLES, CONCAT, PB_SPEED
+from setup import NORMALIZE, SILENCE, PADDING, REM_INDIVIDUAL_SAMPLES, CONCAT, PB_SPEED, OUTPUT_FORMAT, OUTPUT_BITRATE
 from operator import add
 
 
@@ -28,7 +28,7 @@ def audioProcessing(sample_list):
 
 def concatSamples(sample_list, output_chain_name):
     playlist = reduce(add,(s for s in sample_list))
-    playlist.export(join(out_path,output_chain_name+'.mp3'),format="mp3",bitrate="128k")
+    playlist.export(join(out_path,output_chain_name+'.'+OUTPUT_FORMAT),format=OUTPUT_FORMAT,bitrate=OUTPUT_BITRATE)
 
     if REM_INDIVIDUAL_SAMPLES:
         removeIndividualSamples(sample_list)

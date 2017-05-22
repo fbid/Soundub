@@ -13,6 +13,8 @@ PADDING = float(config.get('Config', 'sample_padding')) * 1000
 REM_INDIVIDUAL_SAMPLES = config.get('Config', 'remove_individual_samples')
 CONCAT = config.get('Config', 'audiochain')
 PB_SPEED = float(config.get('Config','playback_speed'))
+OUTPUT_FORMAT = config.get('Config','output_format')
+OUTPUT_BITRATE = config.get('Config','output_bitrate')
 
 def _onOfftoBool(param):
     if param == 'on':

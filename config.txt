@@ -8,3 +8,5 @@ cut_silence = on
 normalize = on
 sample_padding = 2
 remove_individual_samples = off
+output_format = mp3
+output_bitrate = 128k
