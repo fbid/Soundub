@@ -1,7 +1,7 @@
 # Soundub
 
 :musical_note: *A CLI utility tool for audio processing based on pydub/ffmpeg libraries.*
-
+&nbsp;
 ___
 
 ## Quickstart
@@ -14,14 +14,16 @@ $ pip install pydub
 $ python main.py
 ```
 
-___
+&nbsp;
+&nbsp;
 
 ## Supported file formats
 * .mp3
 * .wav
 * .aiff
 
-___
+&nbsp;
+&nbsp;
 
 ## Custom settings
 * Audio files concatenation
@@ -32,7 +34,9 @@ ___
 * Remove unprocessed samples
 
 ##### Refer to config.txt for the complete settings list
-___
+
+&nbsp;
+&nbsp;
 
 ## TO DO List
 - [ ] GUI
