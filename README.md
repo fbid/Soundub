@@ -1,6 +1,6 @@
 # Soundub
 
-*A CLI utility tool for audio processing based on pydub/ffmpeg libraries.* :musical_note:
+:musical_note: *A CLI utility tool for audio processing based on pydub/ffmpeg libraries.*
 
 _
 
@@ -31,6 +31,7 @@ _
 * Silence padding between samples
 * Remove unprocessed samples
 
+##### Refer to config.txt for the complete settings list
 _
 
 ## TO DO List
