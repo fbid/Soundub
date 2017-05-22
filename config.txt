@@ -1,0 +1,10 @@
+[Config]
+
+source_directory = _in
+output_directory = out
+audiochain = on
+playback_speed = 1.5
+cut_silence = on
+normalize = on
+sample_padding = 2
+remove_individual_samples = off
