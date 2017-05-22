@@ -2,7 +2,7 @@
 
 :musical_note: *A CLI utility tool for audio processing based on pydub/ffmpeg libraries.*
 
-_
+___
 
 ## Quickstart
 
@@ -14,14 +14,14 @@ $ pip install pydub
 $ python main.py
 ```
 
-_
+___
 
 ## Supported file formats
 * .mp3
 * .wav
 * .aiff
 
-_
+___
 
 ## Custom settings
 * Audio files concatenation
@@ -32,7 +32,7 @@ _
 * Remove unprocessed samples
 
 ##### Refer to config.txt for the complete settings list
-_
+___
 
 ## TO DO List
 - [ ] GUI
