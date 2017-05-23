@@ -1,8 +1,10 @@
 # Soundub
 
 :musical_note: *A CLI utility tool for audio processing based on pydub/ffmpeg libraries.*
+
 &nbsp;
-___
+&nbsp;
+
 
 ## Quickstart
 
