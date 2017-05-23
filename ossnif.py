@@ -1,6 +1,6 @@
-import os
+from os import name as OSname
 
-if os.name == 'posix':
+if OSname == 'posix':
     path_slash = '/'
-elif os.name == 'nt':
+elif OSname == 'nt':
     path_slash = '\\'

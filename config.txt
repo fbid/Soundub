@@ -1,7 +1,7 @@
 [Config]
 
-source_directory = _in
-output_directory = out
+source_dir = _in
+output_dir = out
 sample_chain = on
 playback_speed = 1.5
 cut_silence = on
