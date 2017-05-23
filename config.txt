@@ -2,11 +2,11 @@
 
 source_directory = _in
 output_directory = out
-audiochain = on
+sample_chain = on
 playback_speed = 1.5
 cut_silence = on
 normalize = on
 sample_padding = 2
 remove_individual_samples = off
-output_format = mp3
+output_format = wav
 output_bitrate = 128k

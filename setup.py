@@ -11,16 +11,13 @@ NORMALIZE = config.get('Config', 'normalize')
 SILENCE = config.get('Config', 'cut_silence')
 PADDING = float(config.get('Config', 'sample_padding')) * 1000
 REM_INDIVIDUAL_SAMPLES = config.get('Config', 'remove_individual_samples')
-CONCAT = config.get('Config', 'audiochain')
+CONCAT = config.get('Config', 'sample_chain')
 PB_SPEED = float(config.get('Config','playback_speed'))
 OUTPUT_FORMAT = config.get('Config','output_format')
 OUTPUT_BITRATE = config.get('Config','output_bitrate')
 
 def _onOfftoBool(param):
-    if param == 'on':
-        return True
-    else:
-        return False
+    return param == 'on'
 
 NORMALIZE = _onOfftoBool(NORMALIZE)
 SILENCE = _onOfftoBool(SILENCE)
